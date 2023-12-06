@@ -9,7 +9,6 @@ def game_template(some_game):
     name = prompt.string('May I have your name? ')
     print(f'Hello, {name}!')
     print(some_game.show_game_name())
-    
     for _ in range(NUMBER_OF_ATTEMPTS):
         value_question, correct_answer = some_game.get_result_program()
         print(f'Question: {value_question}')
