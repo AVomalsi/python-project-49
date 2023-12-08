@@ -8,3 +8,5 @@
 [![Asciinema play brain-calc game](https://asciinema.org/a/479D1s21FZvOPe9ukTheK8Lcw)]
 
 [![Asciinema play brain-gcd game](https://asciinema.org/a/s5dYK4f9lLiBnfKBwVG4Nj3UN)]
+
+[![Asciinema play brain-progression game](https://asciinema.org/a/HqW9P3Yv2g3ONNeLyzVIYb3eJ)]
