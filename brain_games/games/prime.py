@@ -8,8 +8,8 @@ FINAL_VALUE = 100
 def is_prime(number):
     for i in range(INITIAL_VALUE, int(number ** 0.5) + 1):
         if number % i == 0:
-            return False
-    return True
+            return 'no'
+    return 'yes'
 
 
 def show_game_name():
@@ -18,5 +18,5 @@ def show_game_name():
 
 def get_result_program():
     random_number = random.randint(INITIAL_VALUE, FINAL_VALUE)
-    result = 'yes' if is_prime(random_number) else 'no'
+    result = is_prime(random_number)
     return random_number, result
