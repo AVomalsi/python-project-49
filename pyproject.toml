@@ -1,11 +1,16 @@
 [tool.poetry]
 name = "hexlet-code"
 version = "0.1.0"
-description = ""
+description = "Brain games includes 5 games: Even, Calculator, GCD, Progression, Prime"
 authors = ["Артур Исламов <arturislamov91@yandex.ru>"]
 readme = "README.md"
 packages = [
   { include = "brain_games" },
+]
+repository = "https://github.com/AVomalsi/python-project-49"
+classifiers = [
+  "Topic :: Software Development :: Build Tools",
+  "Topic :: Software Development :: Libraries :: Python Modules"
 ]
 
 [tool.poetry.dependencies]

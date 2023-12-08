@@ -3,7 +3,10 @@ import random
 
 INITIAL_VALUE = 1
 FINAL_VALUE = 50
-STEP_TO_TEN = 10
+SEQUENCE_LENGTH = 10
+START_OF_INDEX = 0
+END_OF_INDEX = 9
+GAG_SYMBOL = '..'
 
 
 def show_game_name():
@@ -12,8 +15,8 @@ def show_game_name():
 
 def generate_sequence():
     start_number = random.randint(INITIAL_VALUE, FINAL_VALUE)
-    step = random.randint(INITIAL_VALUE, STEP_TO_TEN)
-    end_number = start_number + step * 9
+    step = random.randint(INITIAL_VALUE, SEQUENCE_LENGTH)
+    end_number = END_OF_INDEX * step + start_number
     progression_list = [
         str(i) for i in range(start_number, end_number + 1, step)
     ]
@@ -22,8 +25,8 @@ def generate_sequence():
 
 def get_result_program():
     arithmetic_sequence = generate_sequence()
-    random_index = random.randint(0, 9)
+    random_index = random.randint(START_OF_INDEX, END_OF_INDEX)
     random_value = arithmetic_sequence[random_index]
-    arithmetic_sequence[random_index] = '..'
+    arithmetic_sequence[random_index] = GAG_SYMBOL
     final_sequence = ' '.join(arithmetic_sequence)
     return final_sequence, random_value
