@@ -10,3 +10,5 @@
 [![Asciinema play brain-gcd game](https://asciinema.org/a/s5dYK4f9lLiBnfKBwVG4Nj3UN)]
 
 [![Asciinema play brain-progression game](https://asciinema.org/a/HqW9P3Yv2g3ONNeLyzVIYb3eJ)]
+
+[![Asciinema play brain-progression game](https://asciinema.org/a/xFAk3TWNzcsxDI5SLVzxVUUQe)]
