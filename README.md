@@ -14,7 +14,7 @@
 
 ## Brain Even Game
 
-_The user is shown a random number, and he needs to answer "yes" if the number is even, or "no" if it is odd.
+The user is shown a random number, and he needs to answer "yes" if the number is even, or "no" if it is odd.
 
 [![Asciinema play brain-even game](https://asciinema.org/a/gsNElceMHvQT1LJQQJYpFDYO1.png)](https://asciinema.org/a/gsNElceMHvQT1LJQQJYpFDYO1)
 
@@ -35,7 +35,7 @@ The user is shown two random numbers. The user must calculate and enter the grea
 ---
 ## Brain Progression Game
 
-_The user is shown a series of numbers with a missing element, which forms an arithmetic progression. The user must determine this unknown number.
+The user is shown a series of numbers with a missing element, which forms an arithmetic progression. The user must determine this unknown number.
 
 [![Asciinema play brain-progression game](https://asciinema.org/a/HqW9P3Yv2g3ONNeLyzVIYb3eJ.png)](https://asciinema.org/a/HqW9P3Yv2g3ONNeLyzVIYb3eJ)
 
