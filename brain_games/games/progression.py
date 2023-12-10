@@ -10,7 +10,7 @@ GAG_SYMBOL = '..'
 GAME_RULES = 'What number is missing in the progression?'
 
 
-def generate_sequence() -> list:
+def generate_sequence() -> list[int]:
     start_number = random.randint(INITIAL_VALUE, FINAL_VALUE)
     step = random.randint(INITIAL_VALUE, SEQUENCE_LENGTH)
     end_number = END_OF_INDEX * step + start_number

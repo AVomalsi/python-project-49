@@ -5,13 +5,33 @@
 [![Maintainability](https://api.codeclimate.com/v1/badges/70a801a2dca250e915a9/maintainability)](https://codeclimate.com/github/AVomalsi/python-project-49/maintainability)
 
 ---
-
 ## Game Description
 
 “Brain Games” is a set of five console games built on the principle of popular mobile applications for brain training. Each game asks questions that must be answered correctly. After three correct answers, the game is considered completed. Wrong answers end the game and prompt you to play it again.
 
 ---
+## Installation
 
+To install the game, you need to run a command with a link to the repository (update pip before installing).
+
+```bash
+pip install git+https://github.com/AVomalsi/python-project-49
+```
+
+---
+## Usage
+
+Five short scripts are provided to launch games. Enter them into the console and play.
+
+```bash
+>> brain-even
+>> brain-calc
+>> brain-gcd
+>> brain-progression
+>> brain-prime
+```
+
+---
 ## Brain Even Game
 
 The user is shown a random number, and he needs to answer "yes" if the number is even, or "no" if it is odd.
@@ -45,15 +65,3 @@ The user is shown a series of numbers with a missing element, which forms an ari
 The user is shown a random number and he needs to answer "yes" if the number is prime, or "no" if it is not.
 
 [![Asciinema play brain-prime game](https://asciinema.org/a/xFAk3TWNzcsxDI5SLVzxVUUQe.png)](https://asciinema.org/a/xFAk3TWNzcsxDI5SLVzxVUUQe)
-
----
-## Usage
-
-You can play one of the games.
-```bash
->> brain-even
->> brain-calc
->> brain-gcd
->> brain-progression
->> brain-prime
-```

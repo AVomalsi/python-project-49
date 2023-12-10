@@ -9,8 +9,12 @@ packages = [
 ]
 repository = "https://github.com/AVomalsi/python-project-49"
 classifiers = [
-  "Topic :: Software Development :: Build Tools",
-  "Topic :: Software Development :: Libraries :: Python Modules"
+  "Topic :: Software Development :: Brain Games",
+  "Environment :: Console",
+  "Framework :: Flake8",
+  "License :: Freeware",
+  "Natural Language :: English",
+  "Programming Language :: Python :: 3.11"
 ]
 
 [tool.poetry.dependencies]
